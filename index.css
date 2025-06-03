@@ -1,0 +1,282 @@
+#HOME {
+    background-image: url(adventureawaits.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(15, 15, 13);
+    word-spacing: 5px;
+    margin: 2px;
+    border-radius: 2px;
+    box-shadow: 5px;
+    text-shadow: 2px, blue;
+    background-image: -moz-element(src="man.jpg");
+    height: 700px;
+    width: 1000px;
+    color: black;
+    align-content: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+
+}
+.navbar{
+    display: inline-block;
+    justify-content: space-evenly;
+    gap: 20px;
+    word-spacing: 30px;
+    
+}
+.navbar2{
+    display: inline-block;
+    justify-content: space-evenly;
+    gap: 20px;
+    word-spacing: 30px;
+}
+li{
+
+    display: inline-flex;
+    justify-content: safe;
+}
+
+
+#pic {
+    height:400px;
+    width: 400px;
+text-align: start;
+    border-radius: 10px;
+   float: left;
+    padding: 10px;
+    margin-top: 1px;
+
+}
+
+.l1 {
+    height:300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+.header{
+
+    color: orangered ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.n2 {
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+
+}
+.no2{
+background-color: bisque;
+margin: 10px;
+height: 200px;
+width: 200px;
+display: inline-block;
+padding: 10px;
+border-radius: 10px;
+}
+.no2 .image{
+border-radius: 50%;
+
+
+}
+
+button{
+    align-items: center;
+}
+
+#patners{
+width: 700px;
+height: 50px;
+background-color:beige;
+word-spacing: 1cm;
+border-radius: 10px;
+display: inline-block;
+
+}
+p{
+
+    text-align: center;
+    word-spacing: 0.3cm;
+}
+body{
+
+background-color: beige;
+color:rgb(0, 0, 0);
+margin: 4rem;
+}
+button:hoover{
+    background-color: greenyellow;
+}
+
+.image{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+margin: 10px;
+
+}
+#community{
+height: 50px;
+width: 700px;
+background-color:snow;
+
+}
+.comm{
+width: 500px;
+height: 200px;
+background-color:whitesmoke;
+display: inline-block;
+}
+#comm1{
+width: 1000px;
+height: 300px;
+
+}
+.faq{
+    text-align: left;
+   display: inline-block;
+    border: 1px;
+    border-radius: 10px;
+     width: 500px; 
+     height: 500px;
+     padding: 10px;
+}
+
+
+.det{
+text-align: justify;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+#CONTACTS{
+float: left;
+
+}
+
+#SIS{
+font-size: x-large;
+color: red;
+font-family: 'Times New Roman', Times, serif;
+margin: 30px;
+
+}
+.CONTACTS{
+width: 500px;
+height: 200px;
+background-color:rgb(228, 219, 219);
+display: inline-block;
+align-self: normal;
+margin: 2rem;
+}
+.gallery-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+  }
+  .foot{
+display: inline-block;
+width: 500px;
+align-content: space-around;
+text-align: start, center;
+
+  }
+
+  .gallery-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+
+  .gallery-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .gallery-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  .slideshow-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  height: fit-content;
+  display: inline-block;
+  overflow-x: hidden;
+}
+
+.mySlides{
+  display: inline-block;
+ overflow-y: hidden;
+}
+
+.img1 {
+ border-radius: 50%;
+ width: 100px;
+ height: 100px;
+ display: inline;
+  
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.3s ease;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.fade {
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from { opacity: .4 }
+  to { opacity: 1 }
+}
+.logo{
+border-radius: 75%;
+width: 50px;
+height: 50px;
+
+}
+#logos{
+  display: inline-block;
+}
